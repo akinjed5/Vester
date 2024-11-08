@@ -1,0 +1,21 @@
+.dash-content-div {
+  width: 90%;
+  margin: 0 auto;
+}
+.dash-mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.search-div{
+    display: flex;
+    height: 5rem;
+}
+.search-bar {
+    width: 100%;
+    height: 5rem;
+    border-radius: 3rem;
+    color: #BFBFBF;
+    border: 0.1rem solid #BFBFBF;
+    text-indent: 1rem;
+}
