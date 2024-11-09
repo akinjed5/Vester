@@ -1,4 +1,4 @@
-#Vester Technical Assessment
+#Vester Technical Assessment#
 
 This repository contains a responsive web app with a form and a dashboard for onboarding startups to Vester.
 
