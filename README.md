@@ -1,5 +1,8 @@
-# Vester Technical Assessment
+# React + Vite
 
-This repository contains a responsive web app with a form and a dashboard for onboarding startups to Vester.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-I based my design on the instructions for the technical assessment to make a clean and intuitive UI. I maintained the colors used in the company website an logo to ensure design consistency and made sure my code was commented clean and well formatted while following code best practices to ensure it's easy to maintain
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

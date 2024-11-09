@@ -51,7 +51,7 @@
   .date-field{
     text-indent: 1.2rem !important;
   }
-  button{
+  .onboard-submit{
     border-radius: 4rem;
     height: 6rem;
     background-color: #F47207;
@@ -73,6 +73,8 @@
       width: 35%;
       border-radius: 2rem;
       margin: 1rem;
+      position: fixed;
+      height: 98.5vh;
     }
     .billboard .vester-logo{
       background-color: white;
@@ -84,13 +86,13 @@
     }
     .content-div{
       width: 40%;
-      margin-left: 5%;
+      margin-left: 40%;
       margin-right: 15%;
       padding-top: 10rem;
       height: 70vh;
     }
-    h2{
-      font-size: 6rem;
+    .text-grp{
+      font-size: 5rem;
       margin-left: 10%;
       margin-right: 10%;
       color: #FFFFFF;
