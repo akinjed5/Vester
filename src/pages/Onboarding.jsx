@@ -25,7 +25,6 @@ function Onboarding() {
     // Handle form submission logic here
     console.log(formData);
     navigate("/Dashboard");
-
   };
 
   return (
@@ -34,10 +33,11 @@ function Onboarding() {
         <nav className="mobile-nav">
           <img src={vesterLogo} className="vester-logo" alt="Vester logo" />
         </nav>
-        <h2 className="desktop">
-          Bridging the Gap Between{" "}
-          <span className="black-text">Innovation</span> and{" "}
-          <span className="black-text">Investment</span>
+        <h2 className="desktop text-grp">
+          Bridging the Gap <br />
+          Between 
+          <span className="black-text"> Innovation</span> <br />
+          and <span className="black-text">Investment</span>
         </h2>
       </div>
       <div className="content-div">
@@ -116,7 +116,9 @@ function Onboarding() {
               onChange={handleChange}
             />
           </div>
-          <button type="submit">Continue</button>
+          <button className="onboard-submit" type="submit">
+            Continue
+          </button>
         </form>
       </div>
     </>

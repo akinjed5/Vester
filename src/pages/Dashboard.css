@@ -7,15 +7,158 @@
   justify-content: space-between;
   margin-top: 5rem;
 }
-.search-div{
-    display: flex;
-    height: 5rem;
-}
 .search-bar {
-    width: 100%;
-    height: 5rem;
-    border-radius: 3rem;
-    color: #BFBFBF;
-    border: 0.1rem solid #BFBFBF;
-    text-indent: 1rem;
+  width: 100%;
+  height: 5rem;
+  border-radius: 3rem;
+  color: #bfbfbf;
+  border: 0.1rem solid #bfbfbf;
+  text-indent: 5rem;
+  background-image: url("trace.svg");
+  background-repeat: no-repeat;
+  background-position: 1rem;
+  margin-top: 3rem;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff7f0;
+  margin-top: 2rem;
+  border-radius: 2rem;
+}
+.dash-text-grp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+.dash-text-grp h2 {
+  font-size: 5rem;
+  line-height: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.dash-text-grp a {
+  font-size: 2rem;
+  color: #5c5c5c;
+  text-decoration: underline;
+}
+
+.info-grp {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.info-tile {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  width: 27%;
+  background-color: #fff7f0;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.info-tile img {
+  margin-right: 1rem;
+}
+.orange-text {
+  color: #f47207;
+}
+.info-div h2,
+.form-text {
+  font-size: 1.9rem;
+  margin-top: 6rem;
+  font-weight: 400;
+}
+.slider{
+    white-space: nowrap;
+    overflow: hidden;
+}
+@keyframes slider {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+.info-grp1 {
+  display: inline-block;
+  animation: 15s slider infinite linear;
+}
+.info-grp1 p{
+    white-space: normal;
+}
+.info-card {
+  width: 20rem;
+  margin-right: 5rem;
+  display: inline-block;
+}
+.info-card h2 {
+  margin-top: 0rem;
+}
+.form-div1 {
+  background-color: #f4f4f4;
+  border-radius: 2rem;
+}
+.form-div1 h2 {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+.form-questions {
+  padding: 2rem;
+}
+.form-questions label {
+  display: flex;
+  vertical-align: middle;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+.form-questions label input {
+  margin: 0 1rem 0 0;
+}
+.dashboard-submit {
+  border-radius: 4rem;
+  height: 6rem;
+  background-color: #f47207;
+  border: 0;
+  margin-top: 3rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+
+@media (min-width: 768px) {
+  .dash-billboard {
+    background-color: #f47207;
+    width: 35%;
+    border-radius: 2rem;
+    margin: 1rem;
+    position: fixed;
+    height: 98.5vh;
+  }
+  .dash-content-div {
+    width: 57%;
+    margin-left: 39%;
+    margin-right: 4%;
+    padding-top: 10rem;
+    height: 70vh;
+  }
+  .hamburger{
+    display: none;
+  }
+  .dash-billboard .dash-vester-logo{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    margin-left: 10%;
+    margin-top: 10rem;
+    width: 30%;
+  }
 }
