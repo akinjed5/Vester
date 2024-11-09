@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
+  padding: 1rem;
 }
 .search-bar {
   width: 100%;
@@ -135,6 +136,8 @@
 
 
 @media (min-width: 768px) {
+    /* Styles for screens larger than 768px */
+
   .dash-billboard {
     background-color: #f47207;
     width: 35%;
@@ -162,3 +165,15 @@
     width: 30%;
   }
 }
+@media (max-width: 425px) {
+  /* Styles for screens smaller than 425px */
+
+  .dash-text-grp h2{
+    font-size: 3rem;
+  }
+
+  .info-tile{
+    font-size: 1rem;
+  }
+}
+
